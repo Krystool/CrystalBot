@@ -894,5 +894,5 @@ bot.on('message', message => {
 
 //#region------------------BOT LOGIN-----------------\\
 
-bot.login(config.token)
+bot.login(process.env.TOKEN)
 //#endregion
